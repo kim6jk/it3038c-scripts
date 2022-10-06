@@ -1,0 +1,7 @@
+My script, speech.ps1, will either record a text to speech message and place it on the desktop of the user the powershell host is run from e.g. if powershell was run as admin the .wav file will be placed on the admin's desktop. It can also just be an immediate text to speech and read what you input without creating a .wav file. 
+
+To run it download the .ps1 and either right click and "Run with Powershell" or from a powershell host type .\speech.ps1 when in the same directory. 
+
+Read through the prompt and hit enter when told to. enter the number '1' or '2' to select the voice when prompted. And enter the letter 'y' or 'n' when asked, 'y' will record the message and not play it immediatly, it will place a .wav file on your desktop with the message. 'n' will play the message immediately.
+
+Make sure you have an audio device connect or you will get an error. This is a problem on the sandbox.

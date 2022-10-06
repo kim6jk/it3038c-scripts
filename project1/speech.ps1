@@ -1,5 +1,5 @@
 Add-Type -AssemblyName System.speech
-$speak = New-Object System.Speech.Synthesis.SpeechSynthesizer
+$synth = New-Object System.Speech.Synthesis.SpeechSynthesizer
 
 Write-Host "Welcome to my Speech Synthesizer script!"
 pause
@@ -13,12 +13,12 @@ clear-host
 $record = Read-Host -prompt 'Would you like to record the message and create a .wav file on your desktop? (y/n)'
 clear-host
 
-if($voiceNumber -eq 2){	$speak.SelectVoice('Microsoft Zira Desktop') }
-if($record -eq "y") {$speak.SetOutputToWaveFile("$env:UserProfile\Desktop\speak.wav")}
+if($voiceNumber -eq 2){	$synth.SelectVoice('Microsoft Zira Desktop') }
+if($record -eq "y") {$synth.SetOutputToWaveFile("$env:UserProfile\Desktop\speak.wav")}
 
 $message = Read-Host -prompt 'What would you like to say?'
-$speak.Speak($message)
-$speak.Dispose()
+$synth.Speak($message)
+$synth.Dispose()
 
 
 
