@@ -14,7 +14,7 @@ $record = Read-Host -prompt 'Would you like to record the message and create a .
 clear-host
 
 if($voiceNumber -eq 2){	$speak.SelectVoice('Microsoft Zira Desktop') }
-if($voiceNumber -eq "y") {$speak.SetOutputToWaveFile("$env:UserProfile\Desktop\speak.wav")}
+if($record -eq "y") {$speak.SetOutputToWaveFile("$env:UserProfile\Desktop\speak.wav")}
 
 $message = Read-Host -prompt 'What would you like to say?'
 $speak.Speak($message)
