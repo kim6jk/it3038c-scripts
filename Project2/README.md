@@ -13,3 +13,5 @@ Next, run the script. (I tested using python 3.10)
 A file picker will pop up, navigate to where you downloaded the .txt file and open it.
 Follow the prompts in the python console, enter a number depending on which option you want to choose. (E.g. '1', '3', etc. without the single quotes)
 A graph should pop-up in a seperate window from the python console showing your graph based on the options you chose.
+
+*Citations inside of the .py file*
