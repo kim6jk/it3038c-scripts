@@ -8,7 +8,7 @@ and
 pip install matplotlib
 ```
 
-To run the script first download the .py file and the .txt file. (The script was only tested with this .txt, it should work with other if they are formatted the same however)
+To run the script first download the .py file and the .txt file. (The script was only tested with this .txt, it should work with other if they are formatted the same however)\n
 Next, run the script. (I tested using python 3.10)
 Use the radio buttons to select the kind of graph you would like
 Use the drop down menu to pick the line type, only applicable for plot graph type
