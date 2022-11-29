@@ -10,8 +10,11 @@ pip install matplotlib
 
 To run the script first download the .py file and the .txt file. (The script was only tested with this .txt, it should work with other if they are formatted the same however)
 Next, run the script. (I tested using python 3.10)
-A file picker will pop up, navigate to where you downloaded the .txt file and open it.
-Follow the prompts in the python console, enter a number depending on which option you want to choose. (E.g. '1', '3', etc. without the single quotes)
-A graph should pop-up in a seperate window from the python console showing your graph based on the options you chose.
+Use the radio buttons to select the kind of graph you would like
+Use the drop down menu to pick the line type, only applicable for plot graph type
+Click the file picker button, navigate to the data.txt file downloaded from the github and open it
+Click the graph it button
+When done looking at a graph close it, select new graph options, or load a new data file
+When done looking at graphs close the option selection menu 
 
 *Citations inside of the .py file*
